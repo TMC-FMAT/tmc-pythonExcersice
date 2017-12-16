@@ -33,7 +33,7 @@ def adder_works(test, a, b):
                     msg="You should output \"Sum of the numbers: RESULT\" to print the result. You printed: "
                         + captured_output.getvalue())
 
-        test_sum = captured_output.getvalue()[captured_output.getvalue().index('bers:') + len('bers: ')]
+        test_sum = captured_output.getvalue()[captured_output.getvalue().index('bers:') + len('bers: '):]
         correct_sum = a + b
         test.assertTrue(str(correct_sum) in captured_output.getvalue(), msg=str(a) + " + " + str(b) + " should be: " +
                         str(correct_sum) + " you proposed: " + test_sum)
