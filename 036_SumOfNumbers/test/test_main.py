@@ -8,7 +8,7 @@ from tmc import points
 from tmc.utils import load, get_stdout
 
 sys.path.append('../')
-sum_of_numbers = load('src.main', 'sum_of_numbers')
+sum_numbers = load('src.main', 'sum_numbers')
 
 
 @points('22')
@@ -28,7 +28,7 @@ class MainTest(unittest.TestCase):
 def logic_works(test, n1, n2, n3, n4, n5):
     captured_output = StringIO.StringIO()
     sys.stdout = captured_output
-    res = sum_of_numbers(n1, n2, n3, n4, n5)
+    res = sum_numbers(n1, n2, n3, n4, n5)
     sys.stdout = sys.__stdout__
 
     answer = n1 + n2 + n3 + n4 + n5

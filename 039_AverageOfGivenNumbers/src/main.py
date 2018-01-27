@@ -2,19 +2,21 @@
 # encoding: windows-1252
 
 
-def greatest(number1, number2, number3):
+# implement here again the method of exercise 36
+def sum_numbers(number1, number2, number3, number4):
+    total = number1 + number2 + number3 + number4
+    return total
+
+
+def average(number1, number2, number3, number4):
     # write program code here
     # do not print anything inside the method
     # method needs a return in the end
 
-    if number1 >= number2 and number1 >= number3:
-        return number1
-    elif number2 >= number3 and number2 >= number1:
-        return number2
-    else:
-        return number3
+    total = sum_numbers(number1, number2, number3, number4) / 4.0
+    return total
 
 
 if __name__ == "__main__":
-    result = greatest(8, 17, 10)
-    print "Greatest: " + str(result)
+    result = average(20, 9, 1, 13)
+    print "Average: " + str(result)

@@ -4,10 +4,10 @@ from random import randint
 
 
 def main():
-    print sum_of_numbers(1, 2, 3, 4, 5)
+    print sum_numbers(1, 2, 3, 4, 5)
 
 
-def sum_of_numbers(number1, number2, number3, number4, number5):
+def sum_numbers(number1, number2, number3, number4, number5):
     total = number1 + number2 + number3 + number4 + number5
     return total
 
