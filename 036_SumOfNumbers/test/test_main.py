@@ -8,7 +8,7 @@ from tmc import points
 from tmc.utils import load, get_stdout
 
 sys.path.append('../')
-main = load('src.main', 'main')
+sum_of_numbers = load('src.main', 'sum_of_numbers')
 
 
 @points('22')
@@ -16,25 +16,26 @@ class MainTest(unittest.TestCase):
     __qualname__ = 'MainTest'
 
     def test_01(self):
-        logic_works_with_password(self)
+        logic_works(self, 1, 2, 3, 4, 5)
+
+    def test_02(self):
+        logic_works(self, 0, 0, 0, 0, 0)
+
+    def test_03(self):
+        logic_works(self, 0, 0, 0, 0, sys.maxint)
 
 
-def logic_works_with_password(test):
-    with mock.patch('__builtin__.raw_input', side_effect=['no', 'car', 'box', 'train', 'fish', 'carrot']):
-        captured_output = StringIO.StringIO()
-        sys.stdout = captured_output
+def logic_works(test, n1, n2, n3, n4, n5):
+    captured_output = StringIO.StringIO()
+    sys.stdout = captured_output
+    res = sum_of_numbers(n1, n2, n3, n4, n5)
+    sys.stdout = sys.__stdout__
 
-        main()
-        sys.stdout = sys.__stdout__
-
-        test.assertTrue((len(captured_output.getvalue()) > 0), msg="You did not ask anything!")
-
-        test.assertTrue(('in' in captured_output.getvalue() or 'dont have' in captured_output.getvalue()),
-                        msg="You should output \"You are in\" or \"You dont have access yet\" " +
-                            "to print the result. You printed: " + captured_output.getvalue())
-
-        test.assertTrue('in' in captured_output.getvalue().split('\n')[-2],
-                        msg="The password carrot cant enter to the system")
+    answer = n1 + n2 + n3 + n4 + n5
+    test.assertEqual(res, answer,
+                    msg='The sum of ' + str(n1) + ' + ' + str(n2) + ' + ' + str(n3) +
+                        ' + ' + str(n4) + ' + ' + str(n5) + ' should be : ' +
+                        str(answer) + " Now it was: " + captured_output.getvalue())
 
 
 if __name__ == '__main__':

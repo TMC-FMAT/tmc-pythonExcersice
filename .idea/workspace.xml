@@ -2,57 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bbd9ee3-76a9-478f-89f6-8bca3a29ac64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/src/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/src/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/test/.tmc_test_results.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/test/test_main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/tmc/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/tmc/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/tmc/points.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/tmc/result.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/tmc/runner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/033_PrintingOutText/tmc/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/src/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/src/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/test/.tmc_test_results.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/test/test_main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/tmc/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/tmc/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/tmc/points.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/tmc/result.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/tmc/runner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/034_ManyPrints/tmc/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/src/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/src/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/test/.tmc_test_results.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/test/test_main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/tmc/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/tmc/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/tmc/points.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/tmc/result.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/tmc/runner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/035_GuessingNumberGame/tmc/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/src/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/src/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/test/.tmc_test_results.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/test/test_main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/tmc/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/tmc/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/tmc/points.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/tmc/result.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/tmc/runner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/036_SumOfNumbers/tmc/utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/032_SumOfThePowers/src/main.py" afterPath="$PROJECT_DIR$/032_SumOfThePowers/src/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/032_SumOfThePowers/test/test_main.py" afterPath="$PROJECT_DIR$/032_SumOfThePowers/test/test_main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/036_SumOfNumbers/src/main.py" afterPath="$PROJECT_DIR$/036_SumOfNumbers/src/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/036_SumOfNumbers/test/test_main.py" afterPath="$PROJECT_DIR$/036_SumOfNumbers/test/test_main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,20 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/035_GuessingNumberGame/src/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/036_SumOfNumbers/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,8 +28,18 @@
       <file leaf-file-name="test_main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/036_SumOfNumbers/test/test_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-106">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdditionTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/006_Addition/test/AdditionTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,7 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/015_AgeOfMajority/src/src/Circumference.py" />
         <option value="$PROJECT_DIR$/015_AgeOfMajority/src/test/AgeOfMajorityTest.py" />
         <option value="$PROJECT_DIR$/015_AgeOfMajority/src/src/AgeOfMajority.py" />
         <option value="$PROJECT_DIR$/016_EvenOrOdd/src/test/EvenOrOddTest.py" />
@@ -159,6 +110,7 @@
         <option value="$PROJECT_DIR$/034_ManyPrints/test/test_main.py" />
         <option value="$PROJECT_DIR$/035_GuessingNumberGame/src/main.py" />
         <option value="$PROJECT_DIR$/036_SumOfNumbers/src/main.py" />
+        <option value="$PROJECT_DIR$/036_SumOfNumbers/test/test_main.py" />
       </list>
     </option>
   </component>
@@ -184,23 +136,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="tmc-pythonExercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmc-pythonExercises" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-python" type="462c0819:PsiDirectoryNode" />
+              <item name="006_Addition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-python" type="462c0819:PsiDirectoryNode" />
+              <item name="006_Addition" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-python" type="462c0819:PsiDirectoryNode" />
+              <item name="010_CircleCircumference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-python" type="462c0819:PsiDirectoryNode" />
+              <item name="010_CircleCircumference" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Python27/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="SearchEverywhereHistoryKey" value="bi&#9;null&#9;null&#10;cir&#9;FILE&#9;file://C:/Users/David/Code/tmc-pythonExercises/010_CircleCircumference/src/src/Circumference.py&#10;adde&#9;FILE&#9;file://C:/Users/David/Code/tmc-pythonExercises/008_Adder/src/test/AdderTest.py&#10;circum&#9;null&#9;null&#10;adder&#9;FILE&#9;file://C:/Users/David/Code/tmc-pythonExercises/008_Adder/src/test/AdderTest.py" />
   </component>
@@ -358,8 +332,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24205749" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583964" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3323398" sideWeight="0.50292826" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3323398" sideWeight="0.49707174" order="5" side_tool="false" content_ui="tabs" />
@@ -389,20 +364,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/014_PositiveValue/tmc/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/015_AgeOfMajority/tmc/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/020_Usernames/tmc/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -508,13 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/008_Adder/test/AdderTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="35" column="104" lean-forward="false" selection-start-line="35" selection-start-column="104" selection-end-line="35" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/023_ThreeNumbers/test/test_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-49">
@@ -610,13 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/012_SumOfTheAges/test/SumOfTheAgesTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="41" selection-end-column="78" />
         </state>
       </provider>
     </entry>
@@ -727,24 +674,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/035_GuessingNumberGame/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/012_SumOfTheAges/test/SumOfTheAgesTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008_Adder/test/AdderTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" column="104" lean-forward="false" selection-start-line="35" selection-start-column="104" selection-end-line="35" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/010_CircleCircumference/test/CircumferenceTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/036_SumOfNumbers/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/006_Addition/test/AdditionTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/036_SumOfNumbers/test/test_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
           <folding />
         </state>
       </provider>
