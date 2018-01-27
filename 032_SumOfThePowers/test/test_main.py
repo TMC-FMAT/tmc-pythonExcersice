@@ -15,36 +15,44 @@ class MainTest(unittest.TestCase):
     __qualname__ = 'MainTest'
 
     def test_01(self):
-        logic_works(self, 2)
-        logic_works(self, 5)
-        logic_works(self, 25)
+        with mock.patch('__builtin__.raw_input', side_effect=[2]):
+            captured_output = StringIO.StringIO()
+            sys.stdout = captured_output
 
+            main()
+            sys.stdout = sys.__stdout__
 
-def logic_works(test, a):
-    with mock.patch('__builtin__.raw_input', side_effect=[a]):
-        captured_output = StringIO.StringIO()
-        sys.stdout = captured_output
+            self.assertTrue((len(captured_output.getvalue()) > 0), msg="You did not ask anything!")
 
-        main()
-        sys.stdout = sys.__stdout__
+            self.assertTrue(("sult: " in captured_output.getvalue()),
+                            msg="You should output \"Result: RESULT\" to print the result. You printed: "
+                                + captured_output.getvalue())
 
-        test.assertTrue((len(captured_output.getvalue()) > 0), msg="You did not ask anything!")
+            test_result = captured_output.getvalue()[captured_output.getvalue().index('sult: ') + len('sult: '):]
+            correct_answer = 5
+            self.assertTrue(str(correct_answer) in captured_output.getvalue(),
+                            msg="The result with input 2 is: " + str(
+                                correct_answer) + " you proposed: " + test_result)
 
-        test.assertTrue(("rial: " in captured_output.getvalue()),
-                        msg="You should output \"Factorial: RESULT\" to print the result. You printed: "
-                            + captured_output.getvalue())
+    def test_02(self):
+        with mock.patch('__builtin__.raw_input', side_effect=[5]):
+            captured_output = StringIO.StringIO()
+            sys.stdout = captured_output
 
-        count = 1
-        factorial = 1
-        while count <= int(a):
-            factorial = factorial * count
-            count = count + 1
+            main()
+            sys.stdout = sys.__stdout__
 
-        test_result = captured_output.getvalue()[captured_output.getvalue().index('rial: ') + len('rial: '):]
-        correct_answer = factorial
-        test.assertTrue(str(correct_answer) in captured_output.getvalue(),
-                        msg="The factorial of " + str(a) + " is: " + str(
-                            correct_answer) + " you proposed: " + test_result)
+            self.assertTrue((len(captured_output.getvalue()) > 0), msg="You did not ask anything!")
+
+            self.assertTrue(("sult: " in captured_output.getvalue()),
+                            msg="You should output \"Result: RESULT\" to print the result. You printed: "
+                                + captured_output.getvalue())
+
+            test_result = captured_output.getvalue()[captured_output.getvalue().index('sult: ') + len('sult: '):]
+            correct_answer = 55
+            self.assertTrue(str(correct_answer) in captured_output.getvalue(),
+                            msg="The result with 5 is: " + str(
+                                correct_answer) + " you proposed: " + test_result)
 
 
 if __name__ == '__main__':

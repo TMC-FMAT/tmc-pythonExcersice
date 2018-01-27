@@ -1,5 +1,6 @@
 #!/usr/bin/env python2
 # encoding: windows-1252
+import math
 
 
 def main():
@@ -7,13 +8,13 @@ def main():
     n = raw_input('Type a number: ')
 
     count = 1
-    factorial = 1
+    result = 0
 
     while count <= int(n):
-        factorial = factorial * count
+        result = result + count*count
         count = count + 1
 
-    print "Factorial: " + str(factorial)
+    print "Result: " + str(result)
 
 
 if __name__ == "__main__":
